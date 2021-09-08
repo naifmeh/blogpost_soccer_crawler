@@ -1,0 +1,30 @@
+{
+  "name": "crawler_blogpost",
+  "version": "1.0.0",
+  "description": "Soccerstats crawler for naifmehanna.com",
+  "main": "src/soccer_scraper.js",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "pg": "^8.7.1",
+    "@cliqz/adblocker-puppeteer": "^1.22.5",
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naifmeh/blogpost_soccer_crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "soccer"
+  ],
+  "author": "Naif Mehanna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naifmeh/blogpost_soccer_crawler/issues"
+  },
+  "homepage": "https://github.com/naifmeh/blogpost_soccer_crawler#readme"
+}
